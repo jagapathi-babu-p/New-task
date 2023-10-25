@@ -1,0 +1,12 @@
+class details{
+  constructor(name,job){
+    this.name = name;
+    this.job = job;
+  }
+  
+   
+}
+  
+  var c = new details("thiru","developer");
+  
+  console.log(`HI, this is ${c.name} i am a ${c.job}`);
